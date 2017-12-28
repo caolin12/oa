@@ -1,3 +1,8 @@
+git config --global user.name "caolin"
+git config --global user.email "caolin@163.com"
+ssh-keygen -t rsa -C caolin@126.com
+测试连通性： ssh -T git@github.com
+
 git init          把当前的目录变成可以管理的git仓库，生成隐藏.git文件。
 git add XX       把xx文件添加到暂存区去。
 git commit –m “XX”  提交文件 –m 后面的是注释。
