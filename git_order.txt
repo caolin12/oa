@@ -1,76 +1,76 @@
 git config --global user.name "caolin"
 git config --global user.email "caolin@163.com"
 ssh-keygen -t rsa -C caolin@126.com
-²âÊÔÁ¬Í¨ĞÔ£º ssh -T git@github.com
+æµ‹è¯•è¿é€šæ€§ï¼š ssh -T git@github.com
 
-git init          °Ñµ±Ç°µÄÄ¿Â¼±ä³É¿ÉÒÔ¹ÜÀíµÄgit²Ö¿â£¬Éú³ÉÒş²Ø.gitÎÄ¼ş¡£
-git add XX       °ÑxxÎÄ¼şÌí¼Óµ½Ôİ´æÇøÈ¥¡£
-git commit ¨Cm ¡°XX¡±  Ìá½»ÎÄ¼ş ¨Cm ºóÃæµÄÊÇ×¢ÊÍ¡£
-git status        ²é¿´²Ö¿â×´Ì¬
-git diff  XX      ²é¿´XXÎÄ¼şĞŞ¸ÄÁËÄÇĞ©ÄÚÈİ
-git log          ²é¿´ÀúÊ·¼ÇÂ¼
+git init          æŠŠå½“å‰çš„ç›®å½•å˜æˆå¯ä»¥ç®¡ç†çš„gitä»“åº“ï¼Œç”Ÿæˆéšè—.gitæ–‡ä»¶ã€‚
+git add XX       æŠŠxxæ–‡ä»¶æ·»åŠ åˆ°æš‚å­˜åŒºå»ã€‚
+git commit â€“m â€œXXâ€  æäº¤æ–‡ä»¶ â€“m åé¢çš„æ˜¯æ³¨é‡Šã€‚
+git status        æŸ¥çœ‹ä»“åº“çŠ¶æ€
+git diff  XX      æŸ¥çœ‹XXæ–‡ä»¶ä¿®æ”¹äº†é‚£äº›å†…å®¹
+git log          æŸ¥çœ‹å†å²è®°å½•
 git reset  --hard HEAD^
-cat XX         ²é¿´XXÎÄ¼şÄÚÈİ
-git reflog       ²é¿´ÀúÊ·¼ÇÂ¼µÄ°æ±¾ºÅid
-git checkout -- XX  °ÑXXÎÄ¼şÔÚ¹¤×÷ÇøµÄĞŞ¸ÄÈ«²¿³·Ïú¡£
-git rm XX          É¾³ıXXÎÄ¼ş
-git remote add origin https://github.com/zzyybs/testgit ¹ØÁªÒ»¸öÔ¶³Ì¿â
-git push ¨Cu(µÚÒ»´ÎÒªÓÃ-u ÒÔºó²»ĞèÒª) origin master °Ñµ±Ç°master·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â
-git clone https://github.com/arjrzhouyang/testgit  ´ÓÔ¶³Ì¿âÖĞ¿ËÂ¡
-git checkout ¨Cb dev  ´´½¨dev·ÖÖ§ ²¢ÇĞ»»µ½dev·ÖÖ§ÉÏ
-git branch  ²é¿´µ±Ç°ËùÓĞµÄ·ÖÖ§
-git checkout master ÇĞ»»»Ømaster·ÖÖ§
-git merge dev    ÔÚµ±Ç°µÄ·ÖÖ§ÉÏºÏ²¢dev·ÖÖ§
-git branch ¨Cd dev É¾³ıdev·ÖÖ§
-git branch name  ´´½¨·ÖÖ§
-git remote ²é¿´Ô¶³Ì¿âµÄĞÅÏ¢
-git remote ¨Cv ²é¿´Ô¶³Ì¿âµÄÏêÏ¸ĞÅÏ¢
-git push origin master  Git»á°Ñmaster·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â¶ÔÓ¦µÄÔ¶³Ì·ÖÖ§ÉÏ  
+cat XX         æŸ¥çœ‹XXæ–‡ä»¶å†…å®¹
+git reflog       æŸ¥çœ‹å†å²è®°å½•çš„ç‰ˆæœ¬å·id
+git checkout -- XX  æŠŠXXæ–‡ä»¶åœ¨å·¥ä½œåŒºçš„ä¿®æ”¹å…¨éƒ¨æ’¤é”€ã€‚
+git rm XX          åˆ é™¤XXæ–‡ä»¶
+git remote add origin https://github.com/zzyybs/testgit å…³è”ä¸€ä¸ªè¿œç¨‹åº“
+git push â€“u(ç¬¬ä¸€æ¬¡è¦ç”¨-u ä»¥åä¸éœ€è¦) origin master æŠŠå½“å‰masteråˆ†æ”¯æ¨é€åˆ°è¿œç¨‹åº“
+git clone https://github.com/arjrzhouyang/testgit  ä»è¿œç¨‹åº“ä¸­å…‹éš†
+git checkout â€“b dev  åˆ›å»ºdevåˆ†æ”¯ å¹¶åˆ‡æ¢åˆ°devåˆ†æ”¯ä¸Š
+git branch  æŸ¥çœ‹å½“å‰æ‰€æœ‰çš„åˆ†æ”¯
+git checkout master åˆ‡æ¢å›masteråˆ†æ”¯
+git merge dev    åœ¨å½“å‰çš„åˆ†æ”¯ä¸Šåˆå¹¶devåˆ†æ”¯
+git branch â€“d dev åˆ é™¤devåˆ†æ”¯
+git branch name  åˆ›å»ºåˆ†æ”¯
+git remote æŸ¥çœ‹è¿œç¨‹åº“çš„ä¿¡æ¯
+git remote â€“v æŸ¥çœ‹è¿œç¨‹åº“çš„è¯¦ç»†ä¿¡æ¯
+git push origin master  Gitä¼šæŠŠmasteråˆ†æ”¯æ¨é€åˆ°è¿œç¨‹åº“å¯¹åº”çš„è¿œç¨‹åˆ†æ”¯ä¸Š  
 
-1	ĞÂ½¨Ò»¸ö²Ö¿â£¬²¢ÇÒ¸Ã²Ö¿âÓ¦¸ÃÊÇgitÀàĞÍ
-	1.1	git initĞÂ½¨gitÀàĞÍµÄ²Ö¿â
+1	æ–°å»ºä¸€ä¸ªä»“åº“ï¼Œå¹¶ä¸”è¯¥ä»“åº“åº”è¯¥æ˜¯gitç±»å‹
+	1.1	git initæ–°å»ºgitç±»å‹çš„ä»“åº“
 
-2	ĞÂ½¨ÎÄ¼ş²¢·ÅÈëgit²Ö¿â
-	2.1	touch a.txt   touch a.txt»òÕßvi
-	2.2	git add ½«ĞÂ½¨µÄa.txtÄÉÈëgit¹ÜÀí
-	2.3	git status,²é¿´ÎÄ¼şÔÚgit²Ö¿âÖĞµÄ×´Ì¬
-	2.4	git commit -m "Ìá½»ĞŞ¸ÄµÄĞÅÏ¢ËµÃ÷",Íê³ÉÁËÊ×´ÎÌá½»
-	2.5	ĞÂÔöÎÄ¼şÄÚÈİ£¬ÔÙ´Î³¢ÊÔÌá½»¡£
+2	æ–°å»ºæ–‡ä»¶å¹¶æ”¾å…¥gitä»“åº“
+	2.1	touch a.txt   touch a.txtæˆ–è€…vi
+	2.2	git add å°†æ–°å»ºçš„a.txtçº³å…¥gitç®¡ç†
+	2.3	git status,æŸ¥çœ‹æ–‡ä»¶åœ¨gitä»“åº“ä¸­çš„çŠ¶æ€
+	2.4	git commit -m "æäº¤ä¿®æ”¹çš„ä¿¡æ¯è¯´æ˜",å®Œæˆäº†é¦–æ¬¡æäº¤
+	2.5	æ–°å¢æ–‡ä»¶å†…å®¹ï¼Œå†æ¬¡å°è¯•æäº¤ã€‚
 
-3	gitµÄÈÕÖ¾ºÍ¸ú×Ù¹ÜÀí
-	3.1	git log,²é¿´Ã¿´Î²Ù×÷µÄÈÕÖ¾Çé¿ö¡£
-		git log --pretty=oneline¿ÉÒÔÒ»ĞĞÏÔÊ¾£¬²é¿´¹Ø¼üĞÅÏ¢
-	3.2	git diff,²é¿´ÄÚÈİ²»Í¬¡£
+3	gitçš„æ—¥å¿—å’Œè·Ÿè¸ªç®¡ç†
+	3.1	git log,æŸ¥çœ‹æ¯æ¬¡æ“ä½œçš„æ—¥å¿—æƒ…å†µã€‚
+		git log --pretty=onelineå¯ä»¥ä¸€è¡Œæ˜¾ç¤ºï¼ŒæŸ¥çœ‹å…³é”®ä¿¡æ¯
+	3.2	git diff,æŸ¥çœ‹å†…å®¹ä¸åŒã€‚
 
-4	git°æ±¾µÄ»ØÍË
-	4.1	ÍËÒ»²½£¬git reset --hard HEAD^£¬Ö¸Õë»ØÍËÒ»²½£»
-	4.2	ÍË¶à²½V1£¬git reset --hard HEAD^^^^^^^^^^,¶à¸ö¼ıºÅ
-	4.3	ÍË¶à²½V2£¬git reset --hard HEAD~Êı×Ö²½Êı
-	4.4	´©Ëó´©Ô½£¬git reflog»ñµÃÍ·7Î»°æ±¾ºÅ£¬È»ºó
-			git reset --hard 7Î»°æ±¾ºÅ
+4	gitç‰ˆæœ¬çš„å›é€€
+	4.1	é€€ä¸€æ­¥ï¼Œgit reset --hard HEAD^ï¼ŒæŒ‡é’ˆå›é€€ä¸€æ­¥ï¼›
+	4.2	é€€å¤šæ­¥V1ï¼Œgit reset --hard HEAD^^^^^^^^^^,å¤šä¸ªç®­å·
+	4.3	é€€å¤šæ­¥V2ï¼Œgit reset --hard HEAD~æ•°å­—æ­¥æ•°
+	4.4	ç©¿æ¢­ç©¿è¶Šï¼Œgit reflogè·å¾—å¤´7ä½ç‰ˆæœ¬å·ï¼Œç„¶å
+			git reset --hard 7ä½ç‰ˆæœ¬å·
 
-5	gitÈıÇø
+5	gitä¸‰åŒº
 
-6	git·ÖÖ§
-	6.1	git branch ²é¿´·ÖÖ§
-	6.2	git branch ·ÖÖ§Ãû×Ö  ×÷ÓÃÊÇĞÂ½¨·ÖÖ§
-	6.3	git checkout ·ÖÖ§Ãû  ×÷ÓÃÊÇÇĞ»»·ÖÖ§
-	6.4	git merge Ä¿µÄ·ÖÖ§   ×÷ÓÃÊÇ½«Ä¿µÄ·ÖÖ®µÄÄÚÈİºÏ²¢½øµ±Ç°·ÖÖ§
-	6.5	git branch -d ·ÖÖ§Ãû	×÷ÓÃÊÇÉ¾³ı·ÖÖ§
-	6.6	git checkout -b ·ÖÖ§Ãû	×÷ÓÃÊÇĞÂ½¨+ÇĞ»»Ò»²½¸ã¶¨
+6	gitåˆ†æ”¯
+	6.1	git branch æŸ¥çœ‹åˆ†æ”¯
+	6.2	git branch åˆ†æ”¯åå­—  ä½œç”¨æ˜¯æ–°å»ºåˆ†æ”¯
+	6.3	git checkout åˆ†æ”¯å  ä½œç”¨æ˜¯åˆ‡æ¢åˆ†æ”¯
+	6.4	git merge ç›®çš„åˆ†æ”¯   ä½œç”¨æ˜¯å°†ç›®çš„åˆ†ä¹‹çš„å†…å®¹åˆå¹¶è¿›å½“å‰åˆ†æ”¯
+	6.5	git branch -d åˆ†æ”¯å	ä½œç”¨æ˜¯åˆ é™¤åˆ†æ”¯
+	6.6	git checkout -b åˆ†æ”¯å	ä½œç”¨æ˜¯æ–°å»º+åˆ‡æ¢ä¸€æ­¥æå®š
 
-7	µÚÒ»ÖÖ³åÍ»
-	·ÖÖ§ºÏ²¢ºóµÄ³åÍ»£¬ÈçºÎ½â¾ö¼ûVCR¡£
+7	ç¬¬ä¸€ç§å†²çª
+	åˆ†æ”¯åˆå¹¶åçš„å†²çªï¼Œå¦‚ä½•è§£å†³è§VCRã€‚
 	
-	µÚ¶şÖÖ³åÍ»
-	git±¾µØÃüÁîºÍgithubµÄ½»»¥³åÍ»£¬
-	pushÌá½»ºóµÄÄÚÈİ³åÍ»£¬ÇëÏÈpullµ½±¾µØÈË¹¤¸ÉÔ¤ÊÕ¹¤ºÏ²¢ºóÔÙpush
+	ç¬¬äºŒç§å†²çª
+	gitæœ¬åœ°å‘½ä»¤å’Œgithubçš„äº¤äº’å†²çªï¼Œ
+	pushæäº¤åçš„å†…å®¹å†²çªï¼Œè¯·å…ˆpullåˆ°æœ¬åœ°äººå·¥å¹²é¢„æ”¶å·¥åˆå¹¶åå†push
 
-	µÚÈıÖÖ³åÍ»TortoiseGitºÍTortoiseSVNÊÇÍ¬ÑùµÄ²Ù×÷½â¾ö
-	TortoiseGit--»ÆÉ«Èı½Ç¸ĞÌ¾ºÅ---edit conflict---merge---resolve--commit--->OK
+	ç¬¬ä¸‰ç§å†²çªTortoiseGitå’ŒTortoiseSVNæ˜¯åŒæ ·çš„æ“ä½œè§£å†³
+	TortoiseGit--é»„è‰²ä¸‰è§’æ„Ÿå¹å·---edit conflict---merge---resolve--commit--->OK
 
-	µÚËÄÖÖ³åÍ»£¬Egit´¦Àí
-	ÓĞ³åÍ»ÁËÏÈpull£¬¾ßÌå¼ûVcr
+	ç¬¬å››ç§å†²çªï¼ŒEgitå¤„ç†
+	æœ‰å†²çªäº†å…ˆpullï¼Œå…·ä½“è§Vcr
 
 
 8	TortoiseGit
@@ -83,6 +83,18 @@ git push origin master  Git»á°Ñmaster·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â¶ÔÓ¦µÄÔ¶³Ì·ÖÖ§ÉÏ
     merge = refs/heads/master
 
 [remote "origin"]
-    url = git@github.com:zzyybs/»»³ÉÄã×Ô¼ºµÄ¹¤³Ì.git
+    url = git@github.com:zzyybs/æ¢æˆä½ è‡ªå·±çš„å·¥ç¨‹.git
     fetch = +refs/heads/*:refs/remotes/origin/*
     push = refs/heads/master:refs/heads/master
+    
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/caolin12/bbbWS
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
