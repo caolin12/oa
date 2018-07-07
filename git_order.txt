@@ -10,7 +10,6 @@ git status        查看仓库状态
 git diff  XX      查看XX文件修改了那些内容
 git log          查看历史记录
 git reset  --hard HEAD^
-cat XX         查看XX文件内容
 git reflog       查看历史记录的版本号id
 git checkout -- XX  把XX文件在工作区的修改全部撤销。
 git rm XX          删除XX文件
