@@ -10,6 +10,7 @@ git status        查看仓库状态
 git diff  XX      查看XX文件修改了那些内容
 git log          查看历史记录
 git reset  --hard HEAD^
+cat XX         查看XX文件内容
 git reflog       查看历史记录的版本号id
 git checkout -- XX  把XX文件在工作区的修改全部撤销。
 git rm XX          删除XX文件
@@ -85,3 +86,15 @@ git push origin master  Git会把master分支推送到远程库对应的远程分支上
     url = git@github.com:zzyybs/换成你自己的工程.git
     fetch = +refs/heads/*:refs/remotes/origin/*
     push = refs/heads/master:refs/heads/master
+    
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/caolin12/bbbWS
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
